@@ -1,0 +1,106 @@
+body{
+	font-family: sans-serif !important;
+	padding-left: 1em;
+}
+#nav.trail{
+	list-style: none;
+	padding-left: 0;
+}
+#nav.trail li{
+	display:  inline-block;
+	margin: 0;
+}
+#nav.trail li:not(:last-of-type):after{
+	content: ' >';
+}
+#nav.trail li a{
+	color: steelblue;
+}
+#nav.trail li a:hover{
+	color: #09C;
+}
+#nav.trail li.active a{
+	font-weight: bold;
+}
+.species_img{
+	cursor: pointer;
+}
+.sql{
+	font-family: monospace;
+}
+.btn-simple{
+	font-family: sans-serif;
+	display: inline-block;
+	background-color: steelblue;
+	padding: 0.5em 0.8em;
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+}
+.btn-simple:hover{
+	background-color: #09C;
+	color: white;
+}
+.btn-green{
+	font-family: sans-serif;
+	display: inline-block;
+	background-color: mediumseagreen;
+	padding: 0.5em 0.8em;
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+}
+.btn-green:hover{
+	background-color: #0C9;
+	color: white;
+}
+#markup{
+	display: block;
+	max-width: 70%;
+	float: left;
+	border-left: dashed 1px #333;
+	padding-left: 1em;
+	margin-left: 1em;
+}
+#markup pre{
+	
+	font-family: monospace;
+	tab-size: 4;
+	float: left;
+	
+}
+
+a{
+	color: steelblue;
+}
+a:hover{
+	color: #09C;
+}
+table {
+	min-width: 20vw;
+	min-height: 10vh;
+	border: solid 3px #333;
+	border-collapse: collapse;
+	float: left;
+}
+table thead th{
+	border-bottom: solid 3px #333;
+	padding: 3px;
+}
+table td{
+	text-align: center;
+}
+table td img{
+	border: solid 1px transparent;
+	padding: 3px;
+	border-radius: 80px;
+	-webkit-transition: background-color 0.3s;
+}
+table td img:hover{
+	border: solid 1px #333;
+	background-color: #CCC;
+
+}
+table tbody tr:nth-child(even){
+	background-color: #F5F5F5;
+}
